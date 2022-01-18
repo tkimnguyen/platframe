@@ -1,0 +1,32 @@
+### NATIVE
+
+# root
+/dev/
+/prd/
+/prod/
+
+# deps
+node_modules/
+
+# environments
+.env
+
+### 3RD PARTY
+
+# VS Code
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# Komodo
+*.komodoproject
+
+# Gimp
+*.xcf
+
+### GENERIC
+
+*~
+*.log

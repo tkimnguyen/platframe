@@ -1,0 +1,28 @@
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━  STRUCTURE  ━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+columns(count, width, gap, fill = balance, span = none, rule...)
+    column-gap: gap
+    column-rule: rule
+    column-fill: fill
+    column-span: span
+    column-width: width
+    column-count: count
+
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━  EFFECTS  ━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+
+dropcap(
+    color = scheme.paragraph,
+    font-size = 3rem,
+    font-weight = inherit,
+    line-height = 0.6,
+    margin = .3rem .3rem 0 0)
+
+    &:first-of-type:first-letter
+        color: color
+        font-size: font-size
+        font-weight: font-weight
+        line-height: line-height
+        letter-spacing: 0
+        text-transform: uppercase
+        float: left
+        margin: margin
